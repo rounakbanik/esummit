@@ -1,0 +1,214 @@
+@media only screen and (max-device-width: 480px) {
+  .jumbotron h1 {
+  	font-size: 55px !important;
+  }
+
+  .jumbotron h2 {
+  	font-size: 35px !important;
+  }
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar-default {
+	border-radius: 0px;
+	background-color: #000059;
+	margin: 0px;
+	color: white;
+	padding: 15px;
+}
+
+.navbar-brand {
+	color: white !important;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.normal-links li a {
+	color: #ccc !important;
+	padding-bottom: 1px !important;
+	padding-right: 1px !important;
+	padding-left: 1px !important;
+	margin-left: 15px !important;
+	margin-right: 15px !important;
+}
+
+#onscreen {
+	color: orange !important;
+	padding-bottom: 1px !important;
+	padding-right: 1px !important;
+	padding-left: 1px !important;
+	border-bottom: 4px solid orange;
+}
+
+.navbar-right li a {
+	color: orange !important;
+	border: 1px solid orange;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* Landing Page Main Frame Styles */
+
+.main-frame {
+	background: url(images/background.jpg) no-repeat center center;
+	background-size: cover;
+	height: 80vh;
+}
+
+.main-frame-content {
+	margin: 30px;
+}
+
+.jumbotron {
+	border-radius: 0px !important;
+	margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+	font-family: 'Lato:900', sans-serif;
+	color: #000059;
+	font-size: 70px;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+.jumbotron h2 {
+	color: #000059;
+	font-size: 42px;
+	margin-top: 2px;
+}
+
+.btn-primary {
+	background-color: #000050;
+	border-radius: 0px;
+}
+
+.btn-primary:hover {
+	background-color: orange;
+	border: 0px;
+}
+
+/* About Us Styles */
+
+.about, .events, .speakers, .sponsors {
+	padding: 50px;
+	background-color: #eee;
+}
+
+.about, .events, .speakers {
+	padding-bottom: 0px;
+}
+
+.about-main, .events-main, .speakers-main, .sponsors-main {
+	background-color: white;
+	padding: 30px;
+}
+
+.about-main h1, .events-main h1, .speakers-main h1, .sponsors-main h1 {
+	font-family: 'Lato:900', sans-serif !important;
+	font-weight: bold;
+	font-size: 350%;
+	color: #000059;
+}
+
+.about-main p {
+	font-size: 150%;
+}
+
+/* Events Styles */
+
+.nav-tabs {
+	background-color: #000059 !important;
+}
+
+.nav-tabs li {
+	margin: 0px;
+}
+
+.nav-tabs li a:hover {
+	background-color: orange;
+	border: 0px;
+	border-radius: 0px;
+}
+
+.nav-tabs li a {
+	font-size: 125%;
+	color: white;
+}
+
+.active a {
+	border-radius: 0px !important;
+	border: 0px !important;
+	background-color: orange !important;
+	color: white !important;
+}
+
+.tab-content {
+	padding: 20px;
+}
+
+.tab-content div {
+	padding: 10px;
+}
+
+.event {
+	padding: 8px;
+	background-color: #eee;
+}
+
+.event-info h2 {
+	margin-top: 0px;
+	color: #000059;
+}
+
+.event-info p {
+	font-size: 120%;
+}
+
+.event div img {
+	width: 200px;
+	height: 200px;
+}
+
+/* Speakers Styles */
+.card {
+	background-color: #eee;
+	padding: 10px;
+}
+
+.card h3 {
+	margin-bottom: 0px;
+}
+
+.card div img, .card div {
+	margin: 0px;
+}
+
+/* Footer Styles */
+
+footer {
+	background-color: #000059;
+	color: white;
+	padding: 50px;
+	padding-right: 80px;
+	padding-left: 80px;
+}
+
+address {
+	font-size: 150%;
+}
+
+.register-btn {
+	padding: 15px;
+	color: orange;
+	border: 1px solid orange;
+	font-size: 110%;
+}
+
+.register-btn:hover {
+	color: orange;
+	text-decoration: none;
+}
