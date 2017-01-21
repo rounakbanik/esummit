@@ -6,6 +6,15 @@
   .jumbotron h2 {
   	font-size: 30px !important;
   }
+
+  .navbar-default {
+  	padding-left: 20px !important;
+  }
+
+  .event-info p, .event-info h2 {
+  	text-align: center;
+  }
+
 }
 
 body {
@@ -18,7 +27,7 @@ nav {
 
 .navbar-default {
 	border-radius: 0px;
-	background-color: #000059;
+	background-color: #14213D;
 	margin: 0px;
 	color: white;
 	padding: 15px;
@@ -31,7 +40,7 @@ nav {
 }
 
 .navbar-nav {
-	margin-left: 30px;
+	margin-left: 100px;
 }
 
 .normal-links li a {
@@ -44,31 +53,51 @@ nav {
 }
 
 #onscreen {
-	color: orange !important;
+	color: #FCA311 !important;
 	padding-bottom: 1px !important;
 	padding-right: 1px !important;
 	padding-left: 1px !important;
-	border-bottom: 4px solid orange;
+	border-bottom: 4px solid #FCA311;
 }
 
 .navbar-right li a {
-	color: orange !important;
-	border: 1px solid orange;
+	/*color: #FCA311 !important;
+	border: 1px solid #FCA311;*/
 	margin-left: 15px;
 	margin-right: 15px;
+}
+
+.navbar-right {
+	margin-right: 70px;
 }
 
 /* Landing Page Main Frame Styles */
 
 .main-frame {
-	background: url(images/background.jpg) no-repeat center center;
+	background: url(images/background.png) no-repeat center center;
 	background-size: cover;
-	height: 80vh;
+	height: 90vh;
 }
 
 .main-frame-content {
 	margin-top: 30px;
 	padding-left: 50px;
+}
+
+.main-frame-btn {
+	font-weight: 400;
+	color: white;
+	background-color: #FCA311;
+	padding: 13px;
+	padding-left: 18px;
+	padding-right: 18px;
+	font-size: 16px;
+}
+
+.main-frame-btn:hover {
+	background-color: #D6800D;
+	text-decoration: none;
+	color: white;
 }
 
 .jumbotron {
@@ -78,32 +107,32 @@ nav {
 
 .jumbotron h1 {
 	font-family: 'Lato:900', sans-serif;
-	color: #000059;
+	color: #14213D;
 	font-size: 70px;
 	font-weight: bold;
 	margin-bottom: 2px;
 }
 
 .jumbotron h2 {
-	color: #000059;
+	color: #14213D;
 	font-size: 42px;
 	margin-top: 2px;
 }
 
 .btn-primary {
-	background-color: #000050;
+	background-color: #14213D;
 	border-radius: 0px;
 }
 
 .btn-primary:hover {
-	background-color: orange;
+	background-color: #FCA311;
 	border: 0px;
 }
 
 /* About Us Styles */
 
 .about, .events, .speakers, .sponsors {
-	padding: 50px;
+	padding: 20px;
 	background-color: #fff;
 }
 
@@ -118,17 +147,16 @@ nav {
 
 .about-main h1, .events-main h1, .speakers-main h1, .sponsors-main h1 {
 	font-weight: bold;
-	color: #000059;
+	color: #14213D;
 }
 
-.about-main p {
+.about-main p, .speakers-main p {
 	font-size: 125%;
 }
 
 /* Events Styles */
 
 .nav-tabs {
-	/*background-color: #000059 !important;*/
 	border-bottom: 0px;
 }
 
@@ -140,27 +168,28 @@ nav {
 	background-color: white;
 	border: 0px;
 	border-radius: 0px;
-	border-bottom: 1px solid orange;
-	color: #000059;
+	border-bottom: 1px solid #FCA311;
+	color: #14213D;
 }
 
 .nav-tabs li a {
 	font-size: 110%;
-	color: #ccc;
+	color: #636363;
 	font-weight: lighter;
 }
 
 .active a {
 	/*border-radius: 0px !important;
 	border: 0px !important;
-	background-color: orange !important;
+	background-color: #FCA311 !important;
 	color: white !important;*/
 	border: 0px !important;
-	border-bottom: 1px solid orange !important;
+	border-bottom: 1px solid #FCA311 !important;
+	font-weight: 700 !important;
 }
 
 .tab-content {
-	padding: 20px;
+	/*padding: 20px;*/
 }
 
 .tab-content div {
@@ -169,12 +198,11 @@ nav {
 
 .event {
 	padding: 8px;
-	background-color: #eee;
 }
 
 .event-info h2 {
 	margin-top: 0px;
-	color: #000059;
+	color: #14213D;
 }
 
 .event-info p {
@@ -184,6 +212,10 @@ nav {
 .event div img {
 	width: 200px;
 	height: 200px;
+}
+
+.event div.col-md-3 {
+	text-align: center;
 }
 
 .flex-container {
@@ -207,6 +239,7 @@ nav {
 
 .speaker-des {
 	font-size: 120%;
+	margin-top: 0px;
 }
 
 .card div img, .card div {
@@ -215,31 +248,110 @@ nav {
 
 .card div img {
 	border-radius: 50%;
+	zoom: 75%;
 }
+
+/* Sponsors Styles */
+.sponsors div.col-md-a img {
+	background: no-repeat center;
+	background-size: contain;
+	margin: 0 auto;
+	height: 100px;
+	max-width: 225px;
+}
+
+.spon {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.spon div {
+	margin: 15px;
+	padding: 10px;
+}
+
+
 /* Footer Styles */
 
 footer {
-	background-color: #000059;
-	color: white;
-	padding: 50px;
+	background-color: #14213D;
+	color: #9A9FA0;
+	padding: 80px;
 	padding-right: 80px;
 	padding-left: 80px;
 	font-weight: 300;
 }
 
-address {
-	font-size: 130%;
+address, footer a, footer p {
+	font-size: 113%;
+}
+
+footer p {
+	margin-top: 15px;
+	padding-right: 30px;
 }
 
 .register-btn {
-	padding: 15px;
-	color: orange;
-	border: 1px solid orange;
-	font-size: 110%;
+	padding: 13px !important;
+	padding-left: 18px !important;
+	padding-right: 18px !important;
+	color: #FCA311 !important;
+	border: 1px solid #FCA311 !important;
+	font-size: 16px !important; 
 }
 
 .register-btn:hover {
-	color: orange;
-	text-decoration: none;
+	color: white !important;
+	text-decoration: none !important;
+	background-color: #FCA311 !important;
 }
 
+footer a {
+	color: #9A9FA0;
+}
+
+footer h3 {
+	color: #E0E0E0;
+}
+
+.footer-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.short-bio {
+	width: 40%;
+}
+
+.sml {
+	width: 20%;
+}
+
+.short-bio, .sml {
+	padding: 20px;
+}
+
+.keep-in-touch {
+	padding-right: 30px;
+}
+
+.navigation {
+	padding-left: 30px;
+}
+/* Other Styles */
+.underline {
+	padding-bottom: 20px;
+	border-bottom: 1px solid orange;
+}
+
+.centerUL {
+	margin-top: 13px;
+}
