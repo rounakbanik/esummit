@@ -85,6 +85,24 @@ nav {
   text-align: center;
 }
 
+.navbar-br {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-br img {
+	height: 80px;
+	max-width: 250px;
+}
+
+.navbar-nav {
+	margin-top: 15px;
+}
+
+button.collapsed {
+	margin-top: 20px;
+}
+
 /* Landing Page Main Frame Styles */
 
 .main-frame {
@@ -347,8 +365,10 @@ footer div.col-md-5 {
 	margin-top: 13px;
 }
 
+/* Navigation Bar Responsive Styles */
+
 body {
-    padding-top: 85px;
+    padding-top: 120px;
 }
 
 header {
@@ -360,6 +380,6 @@ header {
 }
 
 .nav-up {
-    top: -85px;
+    top: -150px;
 }
 
