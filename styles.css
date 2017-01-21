@@ -15,6 +15,10 @@
   	text-align: center;
   }
 
+  footer div.col-md-2, footer div.col-md-5 {
+  	text-align: center;
+  }
+
 }
 
 body {
@@ -277,9 +281,7 @@ nav {
 footer {
 	background-color: #14213D;
 	color: #9A9FA0;
-	padding: 80px;
-	padding-right: 80px;
-	padding-left: 80px;
+	padding: 50px;
 	font-weight: 300;
 }
 
@@ -321,31 +323,10 @@ footer h3 {
 	justify-content: center;
 }
 
-footer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+footer div.col-md-5 {
+	padding-left: 50px;
 }
 
-.short-bio {
-	width: 40%;
-}
-
-.sml {
-	width: 20%;
-}
-
-.short-bio, .sml {
-	padding: 20px;
-}
-
-.keep-in-touch {
-	padding-right: 30px;
-}
-
-.navigation {
-	padding-left: 30px;
-}
 /* Other Styles */
 .underline {
 	padding-bottom: 20px;
