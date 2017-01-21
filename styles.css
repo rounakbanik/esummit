@@ -1,15 +1,19 @@
 @media only screen and (max-device-width: 480px) {
   .jumbotron h1 {
-  	font-size: 55px !important;
+  	font-size: 45px !important;
   }
 
   .jumbotron h2 {
-  	font-size: 35px !important;
+  	font-size: 30px !important;
   }
 }
 
 body {
 	font-family: 'Lato', sans-serif;
+}
+
+nav {
+	padding-left: 100px !important;
 }
 
 .navbar-default {
@@ -24,6 +28,10 @@ body {
 	color: white !important;
 	font-size: 200%;
 	font-weight: bold;
+}
+
+.navbar-nav {
+	margin-left: 30px;
 }
 
 .normal-links li a {
@@ -59,7 +67,8 @@ body {
 }
 
 .main-frame-content {
-	margin: 30px;
+	margin-top: 30px;
+	padding-left: 50px;
 }
 
 .jumbotron {
@@ -95,7 +104,7 @@ body {
 
 .about, .events, .speakers, .sponsors {
 	padding: 50px;
-	background-color: #eee;
+	background-color: #fff;
 }
 
 .about, .events, .speakers {
@@ -104,24 +113,23 @@ body {
 
 .about-main, .events-main, .speakers-main, .sponsors-main {
 	background-color: white;
-	padding: 30px;
+	padding: 50px;
 }
 
 .about-main h1, .events-main h1, .speakers-main h1, .sponsors-main h1 {
-	font-family: 'Lato:900', sans-serif !important;
 	font-weight: bold;
-	font-size: 350%;
 	color: #000059;
 }
 
 .about-main p {
-	font-size: 150%;
+	font-size: 125%;
 }
 
 /* Events Styles */
 
 .nav-tabs {
-	background-color: #000059 !important;
+	/*background-color: #000059 !important;*/
+	border-bottom: 0px;
 }
 
 .nav-tabs li {
@@ -129,21 +137,26 @@ body {
 }
 
 .nav-tabs li a:hover {
-	background-color: orange;
+	background-color: white;
 	border: 0px;
 	border-radius: 0px;
+	border-bottom: 1px solid orange;
+	color: #000059;
 }
 
 .nav-tabs li a {
-	font-size: 125%;
-	color: white;
+	font-size: 110%;
+	color: #ccc;
+	font-weight: lighter;
 }
 
 .active a {
-	border-radius: 0px !important;
+	/*border-radius: 0px !important;
 	border: 0px !important;
 	background-color: orange !important;
-	color: white !important;
+	color: white !important;*/
+	border: 0px !important;
+	border-bottom: 1px solid orange !important;
 }
 
 .tab-content {
@@ -173,9 +186,14 @@ body {
 	height: 200px;
 }
 
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
 /* Speakers Styles */
 .card {
-	background-color: #eee;
+	/*background-color: #eee;*/
 	padding: 10px;
 }
 
@@ -183,10 +201,21 @@ body {
 	margin-bottom: 0px;
 }
 
+.speaker-name {
+	font-size: 140%;
+}
+
+.speaker-des {
+	font-size: 120%;
+}
+
 .card div img, .card div {
 	margin: 0px;
 }
 
+.card div img {
+	border-radius: 50%;
+}
 /* Footer Styles */
 
 footer {
@@ -195,10 +224,11 @@ footer {
 	padding: 50px;
 	padding-right: 80px;
 	padding-left: 80px;
+	font-weight: 300;
 }
 
 address {
-	font-size: 150%;
+	font-size: 130%;
 }
 
 .register-btn {
@@ -212,3 +242,4 @@ address {
 	color: orange;
 	text-decoration: none;
 }
+
