@@ -23,6 +23,8 @@
 
 body {
 	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
 }
 
 nav {
@@ -52,12 +54,13 @@ nav {
 	margin-right: 15px !important;
 }
 
-#onscreen {
+.normal-links li a:hover {
 	color: #FCA311 !important;
 	padding-bottom: 1px !important;
 	padding-right: 1px !important;
 	padding-left: 1px !important;
 	border-bottom: 4px solid #FCA311;
+	cursor: pointer;
 }
 
 .navbar-right li a {
@@ -343,3 +346,20 @@ footer div.col-md-5 {
 .centerUL {
 	margin-top: 13px;
 }
+
+body {
+    padding-top: 85px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+    z-index: 3;
+}
+
+.nav-up {
+    top: -85px;
+}
+
