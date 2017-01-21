@@ -43,10 +43,6 @@ nav {
 	font-weight: bold;
 }
 
-.navbar-nav {
-	margin-left: 100px;
-}
-
 .normal-links li a {
 	color: #ccc !important;
 	padding-bottom: 1px !important;
@@ -72,7 +68,18 @@ nav {
 }
 
 .navbar-right {
-	margin-right: 70px;
+	/*margin-right: 70px;*/
+	padding-right: 20px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 /* Landing Page Main Frame Styles */
