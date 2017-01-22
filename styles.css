@@ -86,22 +86,15 @@ nav {
 }
 
 .navbar-br {
+	height: 45px;
+	width: 180px;
+	background: url(images/logo.png) no-repeat center center;
+	background-size: contain;
 	margin: 0px;
 	padding: 0px;
+	display: inherit;
 }
 
-.navbar-br img {
-	height: 80px;
-	max-width: 250px;
-}
-
-.navbar-nav {
-	margin-top: 15px;
-}
-
-button.collapsed {
-	margin-top: 20px;
-}
 
 /* Landing Page Main Frame Styles */
 
@@ -368,7 +361,7 @@ footer div.col-md-5 {
 /* Navigation Bar Responsive Styles */
 
 body {
-    padding-top: 120px;
+    padding-top: 80px;
 }
 
 header {
@@ -380,6 +373,6 @@ header {
 }
 
 .nav-up {
-    top: -150px;
+    top: -120px;
 }
 
