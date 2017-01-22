@@ -101,7 +101,7 @@ nav {
 .main-frame {
 	background: url(images/background.png) no-repeat center center;
 	background-size: cover;
-	height: 90vh;
+	height: 85vh;
 }
 
 .main-frame-content {
@@ -316,7 +316,7 @@ footer p {
 }
 
 .register-btn {
-	padding: 13px !important;
+	padding: 8px !important;
 	padding-left: 18px !important;
 	padding-right: 18px !important;
 	color: #FCA311 !important;
